@@ -49,9 +49,12 @@ This project is provided as-is for learning and demo purposes. Feel free to reus
 
 
 # URL of working website
+https://eikouji.github.io/picnic-matching-game-copilot/
 
 # Screenshot of game 
+<img width="1127" height="898" alt="picnic-matching-game-screenshot" src="https://github.com/user-attachments/assets/7b9efaae-f6fa-4635-b634-ebabdd131ed8" />
 
 # Disclaimer: 
 this game was made with the use of the Copilot feature available on VS Code.
+
 
