@@ -11,10 +11,13 @@
 		<h1>Picnic Matching Game</h1>
 	</header>
 	<main>
-		<section id="game">
+		<div class="controls">
+			<div id="moves">Moves: <span id="moves-count">0</span></div>
+			<button id="restart">Restart Game</button>
+		</div>
+		<section id="game" aria-label="Memory game">
 			<!-- Game board will be generated here -->
 		</section>
-		<button id="restart">Restart Game</button>
 	</main>
 	<script src="script.js"></script>
 </body>
