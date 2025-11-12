@@ -1,6 +1,6 @@
 /* Picnic matching game styles */
 :root{
-    --bg: #f4f4f4;
+    --bg: #b7ebfd;
     --card-bg: #fff;
     --accent: #2b7a78;
 }
@@ -40,6 +40,16 @@ button{padding:8px 12px;border-radius:6px;border:1px solid rgba(0,0,0,0.08);back
 }
 .card .front{
     background:var(--card-bg);border:1px solid rgba(0,0,0,0.06);
+}
+.card .front::before{
+    content: "?";
+    /* override the .face font-size if needed */
+    font-size: 28px;
+    color: #444;
+    font-weight: 700;
+    /* ensure the pseudo-element participates in flex centering */
+    display: inline-block;
+    line-height: 1;
 }
 .card .back{
     background:linear-gradient(135deg,#2b7a78,#17c3b2);color:#fff;transform:rotateY(180deg);font-weight:700
