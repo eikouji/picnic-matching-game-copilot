@@ -18,6 +18,7 @@ Recommended: use the Live Server (Go Live) extension in VS Code.
 - The game counts moves (each time two cards are revealed counts as one move).
 - Click **Restart Game** to reshuffle and start over.
 - When all pairs are matched, a message will show your move count.
+- Each card is marked with a question mark symbol ?, when you find a match the question mark symbol will be reversed so you can keep track of the cards already matched.
 
 ## Files
 
